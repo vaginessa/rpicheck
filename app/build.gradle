@@ -69,7 +69,7 @@ license {
 }
 
 task licenseFormatAndroid (type:nl.javadude.gradle.plugins.license.License) {
-    source = fileTree(dir:"src").include ("**/*.java")
+    source = fileTree(dir:"src")
 }
 
 licenseFormat.dependsOn licenseFormatAndroid
