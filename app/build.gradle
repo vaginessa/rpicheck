@@ -61,7 +61,7 @@ dependencies {
 }
 
 license {
-    exclude "**/sheetrock/**"
+    exclude "**/ChangeLog.java"
 }
 
 task licenseFormatAndroid (type:nl.javadude.gradle.plugins.license.License) {
