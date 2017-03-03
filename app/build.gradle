@@ -43,6 +43,10 @@ android {
     lintOptions {
         warning 'InvalidPackage', 'MissingTranslation'
     }
+
+    dexOptions {
+        jumboMode = true
+    }
 }
 
 dependencies {
