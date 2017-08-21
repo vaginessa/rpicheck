@@ -1,0 +1,9 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop0       18G   15G  2.5G  86% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+udev            483M  4.0K  483M   1% /dev
+tmpfs            99M  1.4M   97M   2% /run
+none            5.0M     0  5.0M   0% /run/lock
+none            492M  1.8M  490M   1% /run/shm
+none            100M   20K  100M   1% /run/user
+/dev/sda3       167G  157G  9.9G  95% /host
